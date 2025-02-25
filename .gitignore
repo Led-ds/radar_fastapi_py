@@ -1,0 +1,27 @@
+# Ignorar ambientes virtuais
+venv/
+env/
+
+# Ignorar arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar logs e temporários
+*.log
+*.tmp
+
+# Ignorar arquivos de configuração do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar datasets, outputs e grandes arquivos gerados
+data/
+output/
+results/
+*.csv
+*.h5
+*.tiff
+
+# Ignorar dependências instaladas (caso use poetry/pipenv)
+*.lock
